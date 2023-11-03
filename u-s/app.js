@@ -13,7 +13,7 @@ window.requestAnimFrame = (function () {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const customText = urlParams.get('text') || 'SEMANGATT API SEMOGA BAHAGIA SELALU';
+const customText = urlParams.get('text') || 'HAPPY BIRTHDAY SEMOGA BAHAGIA SELALU';
 const space = '                        ';
 const txt = space + customText;
 
